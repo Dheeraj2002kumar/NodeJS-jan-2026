@@ -1,0 +1,22 @@
+
+2026-01-19T18:05:39.216Z | ::1 | GET | /api/users
+ 
+2026-01-19T18:05:59.467Z | ::1 | GET | /api/users
+
+2026-01-19T18:08:35.846Z | ::1 | GET | /api/users
+
+2026-01-19T18:08:43.188Z | ::1 | GET | /api/users
+
+2026-01-19T18:09:52.896Z | ::1 | POST | /api/users/
+
+2026-01-19T18:11:20.042Z | ::1 | GET | /api/users/696e737062545f5b451d49fb
+
+2026-01-19T18:11:44.308Z | ::1 | DELETE | /api/users/696e737062545f5b451d49fb
+
+2026-01-19T18:14:20.418Z | ::1 | DELETE | /api/users/gender/male
+
+2026-01-19T18:14:34.503Z | ::1 | DELETE | /api/users/gender
+
+2026-01-19T18:15:50.240Z | ::1 | GET | /api/users/gender
+
+2026-01-19T18:17:16.936Z | ::1 | GET | /api/users/gender/male
