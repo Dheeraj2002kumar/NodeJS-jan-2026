@@ -1,0 +1,36 @@
+URL Shortener 
+
+Example of bitly - This website provide url Shortener services
+
+https://bitly.com/
+npm i nanoid  --> for url Shortener
+
+Desgin a URL Shortener service that takes in a valid url and returna shortened url, redirecting the user to the previously provided URL.
+
+Also, keep track of total visits /clicks on the URL.
+
+Routes
+
+POST /URL - Generate a new short URL and return the shortened URL in the format example.com/random-id.
+        |
+        |
+        \/
+POST request - localhost:8082/url/
+via postman - choose body, then row, and pass then value i.e. 
+{
+    "url": "https://www.mockaroo.com/"
+}
+
+
+
+GET /:id - Redirects the user to the original URL
+        |
+        |
+        \/
+GET request by id - localhost:8082/h6mY5X8o7
+
+GET /URL/analytics/:id - return the clicks for the provided  short id.
+            |
+            |
+            \/
+GET request - localhost:8082/url/analytics/h6mY5X8o7
